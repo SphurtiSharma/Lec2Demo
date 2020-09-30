@@ -6,4 +6,111 @@
     android:layout_height="match_parent"
     tools:context=".RecipeActivity">
 
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle2"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/txtItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtItem1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIngredients" />
+
+    <TextView
+        android:id="@+id/txtIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/txtIngredients"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtItem1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+    <TextView
+        android:id="@+id/txtItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtItem2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1" />
+
+    <TextView
+        android:id="@+id/txtItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtItem3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2" />
+
+    <TextView
+        android:id="@+id/txtItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtItem4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3" />
+
+    <TextView
+        android:id="@+id/txtDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtDirections"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem4" />
+
+    <TextView
+        android:id="@+id/txtMix"
+        android:layout_width="@dimen/txtMixWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtMix"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDirections"
+        app:layout_constraintVertical_bias="0.026" />
 </androidx.constraintlayout.widget.ConstraintLayout>
